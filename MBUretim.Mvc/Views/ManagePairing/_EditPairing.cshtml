@@ -1,0 +1,55 @@
+﻿@using System.Collections
+@model MBUretim.Mvc.ViewInModel.PairingViewModel
+
+
+
+@using (Html.BeginForm("EditPairing", "ManagePairing", FormMethod.Post, new { onsubmit = "validateForm()" }))
+{
+
+    @Html.AntiForgeryToken()
+    @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+    @Html.HiddenFor(model => model.MbProductpairing.ProductPairingId)
+    <div class="modal-body">
+        <div class="form-group">
+            <div class="row">
+                <div class="col-sm-6">
+                    <label>Ürün</label>
+                    @*@Html.TextBoxFor(model=>model.MbProductpairing.ITEM_CODE,new { placeholder = "Ürün Kodu", @class="form-control"})*@
+                    @Html.DropDownListFor(model => model.CapiDiv.CAPIDIV_LOGICALREF, new SelectList(ViewData["CapiDiv"] as IEnumerable, "CAPIDIV_LOGICALREF", "CAPIDIV_NAME"), new { @data_placeholder = "Ürün Kodu", @class = "select-size-lg", @id = "item", name = "itemCode" })
+                </div>
+                <div class="col-sm-6">
+                    <label>Ürün</label>
+                    @*@Html.TextBoxFor(model => model.MbProductpairing.BOM_CODE, new { placeholder = "Ürün Kodu", @class = "form-control" })*@
+                    @Html.DropDownListFor(model => model.Item.Id, new SelectList(ViewData["Items"] as IEnumerable, "Id", "Code"), new { @data_placeholder = "Ürün Kodu", @class = "select-size-lg", @id = "item", name = "itemCode" })
+                </div>
+                <div class="col-sm-6">
+                    <label>Reçete</label>
+                    @*@Html.TextBoxFor(model => model.MbProductpairing.BOM_CODE, new { placeholder = "Ürün Kodu", @class = "form-control" })*@
+                    @Html.DropDownListFor(model => model.BomMaster.Id, new SelectList(ViewData["BomMaster"] as IEnumerable, "Id", "Code"), new { @class = "select-size-lg", @id = "bomMaster", @name = "bomCode" })
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal-footer">
+        <button type="button" class="btn btn-link" data-dismiss="modal">Kapat</button>
+        <button type="submit" class="btn btn-primary">Kaydet</button>
+    </div>
+}
+
+
+<!-- /theme JS files -->
+<script type="text/javascript" src="~/Content/assets/js/plugins/forms/styling/uniform.min.js"></script>
+<script type="text/javascript" src="~/Content/assets/js/plugins/forms/selects/bootstrap_multiselect.js"></script>
+<script type="text/javascript" src="~/Content/assets/js/pages/form_multiselect.js"></script>
+<script type="text/javascript" src="~/Content/assets/js/core/libraries/jquery_ui/interactions.min.js"></script>
+
+<script type="text/javascript" src="~/Content/assets/js/plugins/ui/moment/moment.min.js"></script>
+<script type="text/javascript" src="~/Content/assets/js/plugins/pickers/daterangepicker.js"></script>
+<script type="text/javascript" src="~/Content/assets/js/plugins/pickers/pickadate/picker.js"></script>
+<script type="text/javascript" src="~/Content/assets/js/plugins/pickers/pickadate/picker.date.js"></script>
+<script type="text/javascript" src="~/Content/assets/js/pages/picker_date.js"></script>
+<script type="text/javascript" src="~/Content/assets/js/pages/form_select2.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+
+

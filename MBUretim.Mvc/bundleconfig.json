@@ -1,0 +1,34 @@
+[
+  {
+    "outputFileName": "Content/assets/css/bootstrap.min.css",
+    "inputFiles": [
+      "Content/assets/css/bootstrap.css"
+    ],
+    "sourceMap": false,
+    "sourceMapRootPath": null
+  },
+  {
+    "outputFileName": "Content/assets/css/components.min.css",
+    "inputFiles": [
+      "Content/assets/css/components.css"
+    ],
+    "sourceMap": false,
+    "sourceMapRootPath": null
+  },
+  {
+    "outputFileName": "Content/bootstrap.min.min.css",
+    "inputFiles": [
+      "Content/bootstrap.min.css"
+    ],
+    "sourceMap": false,
+    "sourceMapRootPath": null
+  },
+  {
+    "outputFileName": "Content/assets/js/core/app.min.js",
+    "inputFiles": [
+      "Content/assets/js/core/app.js"
+    ],
+    "sourceMap": false,
+    "sourceMapRootPath": null
+  }
+]

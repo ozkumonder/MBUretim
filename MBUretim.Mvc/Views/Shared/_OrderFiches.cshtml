@@ -1,0 +1,64 @@
+﻿@using System.Collections
+@using System.Diagnostics
+@using PagedList.Mvc
+@model PagedList.IPagedList<MBUretim.Mvc.Models.MBGOP_ProductOrder>
+@{
+    ViewBag.Title = "Home Page";
+    int counter = 0;
+}
+<!-- Highlighting rows and columns -->
+<div class="panel panel-flat">
+
+    <table class="table datatable-button-html5-columns-production" id="list">
+        <thead>
+        <tr>
+            <th>Sıra</th>
+            <th>Şube No</th>
+            <th>İrsaliye Tarihi</th>
+            <th>Fiş No</th>
+            <th>Malzeme Kodu</th>
+            <th>Malzeme Adı</th>
+            <th>Miktar</th>
+            <th>Birim</th>
+        </tr>
+        </thead>
+        <tbody>
+
+
+        @if (Model != null)
+        {
+            foreach (var item in Model)
+            {
+                counter++;
+                <tr>
+                    <td width="20">@counter</td>
+                    <td>@item.StficheBranch</td>
+                    <td>@string.Format("{0:dd/MM/yyyy}", item.StficheDate)</td>
+                    <td>@item.StficheFicheNo</td>
+                    <td>@item.ItemCode</td>
+                    <td>@item.ItemName</td>
+                    <td>@item.StlineAmount</td>
+                    <td>@item.UnitSetLName</td>
+
+                </tr>
+            }
+        }
+
+
+
+
+        </tbody>
+    </table>
+    <div class="paginations">
+        <ul class="page_nav">
+            @if (Model != null)
+            {
+
+                @Html.PagedListPager(Model, page => Url.Action("Production", new { page }), new PagedListRenderOptions() { Display = PagedListDisplayMode.IfNeeded, DisplayPageCountAndCurrentLocation = true })
+
+            }
+
+        </ul>
+    </div>
+</div>
+<!-- /highlighting rows and columns -->

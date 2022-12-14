@@ -1,0 +1,7 @@
+25.12.2017 12:31:52 
+Şube No: 7403 İrsaliye Tarihi: 25.12.2017 00:00:00 İrsaliye No: 00008901 Malzeme Kodu: TDM00106 Malzeme Adı: ŞEFİN TAVASI Üretilecek Miktar: 7 URT00188991'nolu fişe ait gerçekleşen üretim fişinde olmayan satırlar 
+1)TDTŞBYÖM1 / BİBER COLİFORNİA KIRMIZI / 7403
+Üretim Emri planlanan ve gerçekleşen sarf fişleri uyumsuzluğu var sarf satırlarını stok miktarları kontrol edilmelidir. Kayıtlar geri alınıyor.
+------------------****************------------------
+
+25.12.2017 12:36:01 

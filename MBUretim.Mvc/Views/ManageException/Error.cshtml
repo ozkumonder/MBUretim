@@ -1,0 +1,90 @@
+﻿@model Exception
+@{
+    ViewBag.Title = "Error";
+    Layout = null;
+}
+
+
+<!DOCTYPE html>
+<html lang="en">
+<!-- Mirrored from demo.interface.club/limitless/layout_1/LTR/material/error_503.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Jun 2016 09:48:48 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Limitless - Responsive Web Application Kit by Eugene Kopyov</title>
+    <!-- Global stylesheets -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700,900" rel="stylesheet" type="text/css">
+    <link href="~/Content/assets/css/icons/icomoon/styles.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/assets/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/assets/css/core.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/assets/css/components.css" rel="stylesheet" type="text/css">
+    <link href="~/Content/assets/css/colors.css" rel="stylesheet" type="text/css">
+    <!-- /global stylesheets -->
+    <!-- Core JS files -->
+    <script type="text/javascript" src="~/Content/assets/js/plugins/loaders/pace.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/core/libraries/jquery.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/core/libraries/bootstrap.min.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/plugins/loaders/blockui.min.js"></script>
+    <!-- /core JS files -->
+    <!-- Theme JS files -->
+    <script type="text/javascript" src="~/Content/assets/js/core/app.js"></script>
+    <script type="text/javascript" src="~/Content/assets/js/plugins/ui/ripple.min.js"></script>
+    <!-- /theme JS files -->
+</head>
+<body class="login-container">
+    <!-- Main navbar -->
+    <div class="navbar navbar-inverse bg-indigo">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="index.html"><img src="~/Content/assets/images/logo_light.png" alt=""></a>
+            <ul class="nav navbar-nav pull-right visible-xs-block">
+                <li><a data-toggle="collapse" data-target="#navbar-mobile"><i class="icon-tree5"></i></a></li>
+            </ul>
+        </div>
+        <div class="navbar-collapse collapse" id="navbar-mobile">
+
+        </div>
+    </div>
+    <!-- /main navbar -->
+    <!-- Page container -->
+    <div class="page-container">
+        <!-- Page content -->
+        <div class="page-content">
+            <!-- Main content -->
+            <div class="content-wrapper">
+                <!-- Content area -->
+                <div class="content">
+                    <!-- Error title -->
+                    <div class="text-center content-group">
+                        <h1 class="error-title">Oops!!!</h1>
+                        <h5>@Model.Message</h5>
+                    </div>
+                    <!-- /error title -->
+                    <!-- Error content -->
+                    <div class="row">
+                        <div class="col-lg-4 col-lg-offset-4 col-sm-6 col-sm-offset-3">
+
+
+                            <div class="text-center">
+                                <a href="@Url.Action("Index","Home")" class="btn bg-pink-400"><i class="icon-circle-left2 position-left"></i> Geri Dön</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- /error wrapper -->
+                    <!-- Footer -->
+                    <!-- /footer -->
+                </div>
+                <!-- /content area -->
+            </div>
+            <!-- /main content -->
+        </div>
+        <!-- /page content -->
+    </div>
+    <!-- /page container -->
+</body>
+<!-- Mirrored from demo.interface.club/limitless/layout_1/LTR/material/error_503.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 28 Jun 2016 09:48:48 GMT -->
+</html>
+

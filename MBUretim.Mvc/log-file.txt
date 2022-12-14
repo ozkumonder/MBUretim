@@ -1,0 +1,442 @@
+﻿[Header]
+2017-10-12 16:48:30,005 [45] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-12 16:48:31,601 [45] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1423 Reçete Referansı: 615 Revizyon Referansı: 576 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188876 Mamül Birim Referansı 26
+2017-10-12 16:48:32,943 [45] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-12 16:48:32,944 [45] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00013Urun Adı: TAVUK SUYU ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-12 16:48:33,068 [45] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-12 16:48:36,905 [45] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-12 16:48:36,917 [45] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203897 Malzeme Referans: 1423 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990043
+ Sarf Fişi Referansı            	 : 990042
+2017-10-12 16:48:37,751 [45] INFO   LogoService FastRealizeFicheGenerate   - Gerçekleşen üretim fişinde olmayan satırlar 
+1)TDT124BHRT043/NANE/601
+2)TDT12800246/TAVUK GÖĞÜS SOTE/601
+
+2017-10-12 16:48:37,752 [45] INFO   LogoService FastRealizeFicheGenerate   - Üretim Emrine bağlı planlanan ve gerçekleşen satırı uyumsuzluğu yüzünden kayıtlar çıkartılıyor.
+2017-10-12 16:48:39,988 [45] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-12 16:48:39,988 [45] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-12 16:48:40,008 [45] INFO   LogoService AddProdOrders   - Uretim emri olusturuldu----------------------------------------------------------------------------------------
+[Header]
+2017-10-12 17:20:50,790 [15] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-12 17:20:52,370 [15] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1340 Reçete Referansı: 593 Revizyon Referansı: 557 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188877 Mamül Birim Referansı 23
+2017-10-12 17:20:54,578 [15] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-12 17:20:54,579 [15] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00002Urun Adı: DOMATES ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-12 17:20:54,708 [15] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-12 17:21:04,500 [15] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-12 17:21:04,512 [15] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203898 Malzeme Referans: 1340 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990047
+ Sarf Fişi Referansı            	 : 990046
+2017-10-12 17:21:05,641 [15] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-12 17:21:05,642 [15] INFO   LogoService UpdateStatusCompleted   - Fis durum tamamlandi çalişti
+2017-10-12 17:21:05,727 [15] INFO   LogoService UpdateStatusCompleted   - Uretim emri durumu tamamlandi olarak ayarlandi
+2017-10-12 17:21:05,728 [15] INFO   LogoService UpdateStatusColesed   - Fis durum kapandi basladi
+2017-10-12 17:21:05,957 [15] INFO   LogoService UpdateStatusColesed   - Fis durum kapandi bitti
+2017-10-12 17:21:05,957 [15] INFO   LogoService UpdateStatusCompleted   - Fis durum tamamlandi bitti
+2017-10-12 17:21:05,957 [15] INFO   LogoService UpdateStatusColesed   - Fis durum kapandi basladi
+2017-10-12 17:21:05,964 [15] INFO   LogoService UpdateStatusColesed   - Fis durum kapandi bitti
+2017-10-12 17:21:05,964 [15] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-12 17:21:07,612 [15] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1423 Reçete Referansı: 615 Revizyon Referansı: 576 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188878 Mamül Birim Referansı 26
+2017-10-12 17:21:07,991 [15] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-12 17:21:07,991 [15] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00013Urun Adı: TAVUK SUYU ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-12 17:21:08,085 [15] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-12 17:21:09,021 [15] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-12 17:21:09,034 [15] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203899 Malzeme Referans: 1423 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990051
+ Sarf Fişi Referansı            	 : 990050
+2017-10-12 17:21:09,820 [15] INFO   LogoService FastRealizeFicheGenerate   - Gerçekleşen üretim fişinde olmayan satırlar 
+1)TDT12800246/TAVUK GÖĞÜS SOTE/601
+2)TDT124BHRT043/NANE/601
+
+2017-10-12 17:21:09,820 [15] INFO   LogoService FastRealizeFicheGenerate   - Üretim Emrine bağlı planlanan ve gerçekleşen satırı uyumsuzluğu yüzünden kayıtlar çıkartılıyor.
+2017-10-12 17:21:11,942 [15] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-12 17:21:11,942 [15] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-12 17:21:11,958 [15] INFO   LogoService AddProdOrders   - Uretim emri olusturuldu----------------------------------------------------------------------------------------
+[Header]
+2017-10-13 22:26:08,414 [40] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-13 22:26:08,587 [40] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1340 Reçete Referansı: 593 Revizyon Referansı: 557 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188864 Mamül Birim Referansı 23
+2017-10-13 22:26:17,368 [40] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-13 22:26:17,369 [40] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00002Urun Adı: DOMATES ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-13 22:26:18,390 [40] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-13 22:26:18,412 [40] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-13 22:26:21,358 [40] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-13 22:26:21,359 [40] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-13 22:26:21,465 [40] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1423 Reçete Referansı: 615 Revizyon Referansı: 576 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188864 Mamül Birim Referansı 26
+2017-10-13 22:26:23,028 [40] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-13 22:26:23,029 [40] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00013Urun Adı: TAVUK SUYU ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-13 22:26:23,129 [40] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-13 22:26:23,160 [40] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-13 22:26:25,455 [40] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-13 22:26:25,455 [40] INFO   LogoService AddProdOrders   - Uretim emri olusturuldu----------------------------------------------------------------------------------------
+2017-10-13 22:27:11,266 [42] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-13 22:27:34,191 [42] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1340 Reçete Referansı: 593 Revizyon Referansı: 557 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188864 Mamül Birim Referansı 23
+2017-10-13 22:27:40,804 [42] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-13 22:27:47,479 [42] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00002Urun Adı: DOMATES ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-13 22:28:04,625 [42] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-13 22:28:15,689 [42] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+[Header]
+2017-10-13 22:46:32,999 [6] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-13 22:46:33,162 [6] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1340 Reçete Referansı: 593 Revizyon Referansı: 557 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188864 Mamül Birim Referansı 23
+2017-10-13 22:46:33,937 [6] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-13 22:46:33,938 [6] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00002Urun Adı: DOMATES ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-13 22:46:34,061 [6] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-13 22:47:06,290 [6] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-13 22:47:18,254 [6] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203903 Malzeme Referans: 1340 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990067
+ Sarf Fişi Referansı            	 : 990066
+2017-10-13 22:49:35,539 [6] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-13 22:49:35,540 [6] INFO   LogoService UpdateStatusCompleted   - Fis durum tamamlandi çalişti
+2017-10-13 22:49:35,593 [6] INFO   LogoService UpdateStatusCompleted   - Uretim emri durumu tamamlandi olarak ayarlandi
+2017-10-13 22:49:35,594 [6] INFO   LogoService UpdateStatusColesed   - Fis durum kapandi basladi
+2017-10-13 22:49:35,700 [6] INFO   LogoService UpdateStatusColesed   - Fis durum kapandi bitti
+2017-10-13 22:49:35,700 [6] INFO   LogoService UpdateStatusCompleted   - Fis durum tamamlandi bitti
+2017-10-13 22:49:35,701 [6] INFO   LogoService UpdateStatusColesed   - Fis durum kapandi basladi
+2017-10-13 22:49:35,707 [6] INFO   LogoService UpdateStatusColesed   - Fis durum kapandi bitti
+2017-10-13 22:49:35,707 [6] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-13 22:49:35,813 [6] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1423 Reçete Referansı: 615 Revizyon Referansı: 576 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188865 Mamül Birim Referansı 26
+2017-10-13 22:49:36,090 [6] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-13 22:49:36,090 [6] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00013Urun Adı: TAVUK SUYU ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-13 22:49:36,179 [6] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-13 22:49:38,961 [6] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-13 22:49:38,969 [6] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203904 Malzeme Referans: 1423 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990071
+ Sarf Fişi Referansı            	 : 990070
+2017-10-13 22:49:39,947 [6] INFO   LogoService FastRealizeFicheGenerate   - Gerçekleşen üretim fişinde olmayan satırlar 
+1)TDT12800246/TAVUK GÖĞÜS SOTE/601
+2)TDT124BHRT043/NANE/601
+
+2017-10-13 22:49:39,947 [6] INFO   LogoService FastRealizeFicheGenerate   - Üretim Emrine bağlı planlanan ve gerçekleşen satırı uyumsuzluğu yüzünden kayıtlar çıkartılıyor.
+2017-10-13 22:50:09,840 [6] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-13 22:50:09,840 [6] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-13 22:50:09,947 [6] INFO   LogoService AddProdOrders   - Uretim emri olusturuldu----------------------------------------------------------------------------------------
+2017-10-13 22:52:03,756 [16] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-13 22:52:03,855 [16] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1423 Reçete Referansı: 615 Revizyon Referansı: 576 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188865 Mamül Birim Referansı 26
+2017-10-13 22:52:04,175 [16] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-13 22:52:04,175 [16] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00013Urun Adı: TAVUK SUYU ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-13 22:52:04,262 [16] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-13 22:52:21,756 [16] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-13 22:52:26,147 [16] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203905 Malzeme Referans: 1423 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990075
+ Sarf Fişi Referansı            	 : 990074
+2017-10-13 22:52:47,527 [16] INFO   LogoService FastRealizeFicheGenerate   - Gerçekleşen üretim fişinde olmayan satırlar 
+1)TDT124BHRT043/NANE/601
+2)TDT12800246/TAVUK GÖĞÜS SOTE/601
+
+2017-10-13 22:52:47,527 [16] INFO   LogoService FastRealizeFicheGenerate   - Üretim Emrine bağlı planlanan ve gerçekleşen satırı uyumsuzluğu yüzünden kayıtlar çıkartılıyor.
+2017-10-13 22:52:49,791 [16] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-13 22:52:49,792 [16] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-13 22:52:49,808 [16] INFO   LogoService AddProdOrders   - Uretim emri olusturuldu----------------------------------------------------------------------------------------
+[Header]
+2017-10-13 22:57:43,820 [9] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-13 22:57:44,108 [9] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1423 Reçete Referansı: 615 Revizyon Referansı: 576 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188865 Mamül Birim Referansı 26
+2017-10-13 22:57:44,723 [9] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-13 22:57:44,724 [9] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00013Urun Adı: TAVUK SUYU ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-13 22:57:44,867 [9] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-13 22:57:55,571 [9] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-13 22:58:00,505 [9] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203906 Malzeme Referans: 1423 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990079
+ Sarf Fişi Referansı            	 : 990078
+2017-10-13 22:59:59,971 [9] INFO   LogoService FastRealizeFicheGenerate   - Gerçekleşen üretim fişinde olmayan satırlar 
+1)TDT12800246/TAVUK GÖĞÜS SOTE/601
+2)TDT124BHRT043/NANE/601
+
+2017-10-13 23:00:01,377 [9] INFO   LogoService FastRealizeFicheGenerate   - Üretim Emrine bağlı planlanan ve gerçekleşen satırı uyumsuzluğu yüzünden kayıtlar çıkartılıyor.
+2017-10-13 23:00:04,213 [9] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-13 23:00:09,308 [9] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-13 23:00:21,088 [9] INFO   LogoService AddProdOrders   - Uretim emri olusturuldu----------------------------------------------------------------------------------------
+2017-10-13 23:02:19,345 [18] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-13 23:02:26,338 [18] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1423 Reçete Referansı: 615 Revizyon Referansı: 576 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188865 Mamül Birim Referansı 26
+2017-10-13 23:02:31,224 [18] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-13 23:02:41,206 [18] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00013Urun Adı: TAVUK SUYU ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-13 23:02:49,553 [18] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-13 23:03:35,037 [18] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-13 23:03:41,555 [18] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203907 Malzeme Referans: 1423 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990083
+ Sarf Fişi Referansı            	 : 990082
+2017-10-13 23:04:11,401 [18] INFO   LogoService FastRealizeFicheGenerate   - Gerçekleşen üretim fişinde olmayan satırlar 
+1)TDT124BHRT043/NANE/601
+2)TDT12800246/TAVUK GÖĞÜS SOTE/601
+
+2017-10-13 23:04:12,644 [18] INFO   LogoService FastRealizeFicheGenerate   - Üretim Emrine bağlı planlanan ve gerçekleşen satırı uyumsuzluğu yüzünden kayıtlar çıkartılıyor.
+2017-10-13 23:04:57,786 [18] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-13 23:05:07,607 [18] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+[Header]
+2017-10-13 23:17:52,462 [11] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-13 23:17:52,616 [11] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1423 Reçete Referansı: 615 Revizyon Referansı: 576 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188865 Mamül Birim Referansı 26
+2017-10-13 23:17:52,950 [11] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-13 23:17:52,951 [11] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00013Urun Adı: TAVUK SUYU ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-13 23:17:53,073 [11] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-13 23:18:05,348 [11] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-13 23:18:05,357 [11] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203908 Malzeme Referans: 1423 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990087
+ Sarf Fişi Referansı            	 : 990086
+2017-10-13 23:18:06,247 [11] INFO   LogoService FastRealizeFicheGenerate   - Gerçekleşen üretim fişinde olmayan satırlar 
+1)TDT12800246/TAVUK GÖĞÜS SOTE/601
+2)TDT124BHRT043/NANE/601
+
+2017-10-13 23:18:06,247 [11] INFO   LogoService FastRealizeFicheGenerate   - Üretim Emrine bağlı planlanan ve gerçekleşen satırı uyumsuzluğu yüzünden kayıtlar çıkartılıyor.
+2017-10-13 23:18:21,196 [11] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-13 23:18:21,197 [11] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-13 23:18:21,198 [11] INFO   LogoService AddProdOrders   - Uretim emri olusturuldu----------------------------------------------------------------------------------------
+2017-10-13 23:18:31,717 [17] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-13 23:18:31,837 [17] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1423 Reçete Referansı: 615 Revizyon Referansı: 576 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188865 Mamül Birim Referansı 26
+2017-10-13 23:18:32,207 [17] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-13 23:18:32,207 [17] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00013Urun Adı: TAVUK SUYU ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-13 23:18:32,379 [17] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-13 23:18:35,792 [17] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-13 23:18:35,801 [17] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203909 Malzeme Referans: 1423 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990091
+ Sarf Fişi Referansı            	 : 990090
+2017-10-13 23:18:36,691 [17] INFO   LogoService FastRealizeFicheGenerate   - Gerçekleşen üretim fişinde olmayan satırlar 
+1)TDT124BHRT043/NANE/601
+2)TDT12800246/TAVUK GÖĞÜS SOTE/601
+
+2017-10-13 23:18:36,691 [17] INFO   LogoService FastRealizeFicheGenerate   - Üretim Emrine bağlı planlanan ve gerçekleşen satırı uyumsuzluğu yüzünden kayıtlar çıkartılıyor.
+2017-10-13 23:18:51,367 [17] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-13 23:18:51,368 [17] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-13 23:18:51,368 [17] INFO   LogoService AddProdOrders   - Uretim emri olusturuldu----------------------------------------------------------------------------------------
+[Header]
+2017-10-15 19:05:31,393 [12] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-15 19:05:32,018 [12] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1340 Reçete Referansı: 593 Revizyon Referansı: 557 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188865 Mamül Birim Referansı 23
+2017-10-15 19:05:44,386 [12] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-15 19:05:44,387 [12] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00002Urun Adı: DOMATES ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-15 19:05:45,138 [12] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-15 19:05:52,787 [12] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-15 19:05:52,804 [12] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203910 Malzeme Referans: 1340 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990118
+ Sarf Fişi Referansı            	 : 990117
+2017-10-15 19:13:21,560 [12] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-15 19:13:21,561 [12] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-15 19:13:21,661 [12] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1423 Reçete Referansı: 615 Revizyon Referansı: 576 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188865 Mamül Birim Referansı 26
+2017-10-15 19:13:22,993 [12] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-15 19:13:22,994 [12] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00013Urun Adı: TAVUK SUYU ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-15 19:13:23,098 [12] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-15 19:13:27,451 [12] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-15 19:13:27,458 [12] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203911 Malzeme Referans: 1423 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990122
+ Sarf Fişi Referansı            	 : 990121
+2017-10-15 19:13:56,607 [12] INFO   LogoService FastRealizeFicheGenerate   - Gerçekleşen üretim fişinde olmayan satırlar 
+1)TDT124BHRT043/NANE/601
+2)TDT12800246/TAVUK GÖĞÜS SOTE/601
+
+2017-10-15 19:13:56,608 [12] INFO   LogoService FastRealizeFicheGenerate   - Üretim Emrine bağlı planlanan ve gerçekleşen satırı uyumsuzluğu yüzünden kayıtlar çıkartılıyor.
+2017-10-15 19:14:02,195 [12] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-15 19:14:02,196 [12] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-15 19:14:02,197 [12] INFO   LogoService AddProdOrders   - Uretim emri olusturuldu----------------------------------------------------------------------------------------
+[Header]
+2017-10-15 19:17:42,371 [17] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-15 19:17:49,938 [17] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1340 Reçete Referansı: 593 Revizyon Referansı: 557 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188865 Mamül Birim Referansı 23
+2017-10-15 19:17:51,029 [17] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-15 19:17:51,029 [17] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00002Urun Adı: DOMATES ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-15 19:17:51,339 [17] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-15 19:19:09,429 [17] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-15 19:19:09,443 [17] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203912 Malzeme Referans: 1340 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990126
+ Sarf Fişi Referansı            	 : 990125
+2017-10-15 19:19:17,286 [17] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-15 19:19:17,287 [17] INFO   LogoService UpdateStatusCompleted   - Fis durum tamamlandi çalişti
+2017-10-15 19:19:17,386 [17] INFO   LogoService UpdateStatusCompleted   - Uretim emri durumu tamamlandi olarak ayarlandi
+2017-10-15 19:19:17,387 [17] INFO   LogoService UpdateStatusColesed   - Fis durum kapandi basladi
+2017-10-15 19:19:17,609 [17] INFO   LogoService UpdateStatusColesed   - Fis durum kapandi bitti
+2017-10-15 19:19:17,610 [17] INFO   LogoService UpdateStatusCompleted   - Fis durum tamamlandi bitti
+2017-10-15 19:19:17,610 [17] INFO   LogoService UpdateStatusColesed   - Fis durum kapandi basladi
+2017-10-15 19:19:17,616 [17] INFO   LogoService UpdateStatusColesed   - Fis durum kapandi bitti
+2017-10-15 19:19:17,616 [17] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-15 19:19:17,703 [17] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1423 Reçete Referansı: 615 Revizyon Referansı: 576 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188866 Mamül Birim Referansı 26
+2017-10-15 19:19:18,144 [17] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-15 19:19:18,144 [17] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00013Urun Adı: TAVUK SUYU ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-15 19:19:18,369 [17] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-15 19:19:32,036 [17] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-15 19:19:36,155 [17] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203913 Malzeme Referans: 1423 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990130
+ Sarf Fişi Referansı            	 : 990129
+2017-10-15 19:21:42,630 [17] INFO   LogoService FastRealizeFicheGenerate   - Gerçekleşen üretim fişinde olmayan satırlar 
+1)TDT124BHRT043/NANE/601
+2)TDT12800246/TAVUK GÖĞÜS SOTE/601
+
+2017-10-15 19:21:42,630 [17] INFO   LogoService FastRealizeFicheGenerate   - Üretim Emrine bağlı planlanan ve gerçekleşen satırı uyumsuzluğu yüzünden kayıtlar çıkartılıyor.
+2017-10-15 19:21:47,608 [17] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-15 19:21:47,608 [17] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-15 19:21:47,609 [17] INFO   LogoService AddProdOrders   - Uretim emri olusturuldu----------------------------------------------------------------------------------------
+[Header]
+2017-10-16 10:32:08,202 [11] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-16 10:32:08,874 [11] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1340 Reçete Referansı: 593 Revizyon Referansı: 557 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188866 Mamül Birim Referansı 23
+2017-10-16 10:32:20,060 [11] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-16 10:32:20,062 [11] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00002Urun Adı: DOMATES ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-16 10:32:20,776 [11] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-16 10:32:30,237 [11] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-16 10:32:30,249 [11] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203914 Malzeme Referans: 1340 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990157
+ Sarf Fişi Referansı            	 : 990156
+2017-10-16 10:54:20,708 [11] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-16 10:54:20,709 [11] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-16 10:54:20,821 [11] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1423 Reçete Referansı: 615 Revizyon Referansı: 576 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188866 Mamül Birim Referansı 26
+2017-10-16 10:54:22,157 [11] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-16 10:54:22,158 [11] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00013Urun Adı: TAVUK SUYU ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-16 10:54:22,637 [11] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-16 10:54:24,183 [11] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-16 10:54:24,210 [11] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203915 Malzeme Referans: 1423 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990161
+ Sarf Fişi Referansı            	 : 990160
+2017-10-16 10:54:54,836 [11] INFO   LogoService FastRealizeFicheGenerate   - Gerçekleşen üretim fişinde olmayan satırlar 
+1)TDT12800246/TAVUK GÖĞÜS SOTE/601
+2)TDT124BHRT043/NANE/601
+
+2017-10-16 10:54:54,837 [11] INFO   LogoService FastRealizeFicheGenerate   - Üretim Emrine bağlı planlanan ve gerçekleşen satırı uyumsuzluğu yüzünden kayıtlar çıkartılıyor.
+2017-10-16 10:54:57,158 [11] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-16 10:54:57,158 [11] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-16 10:54:57,158 [11] INFO   LogoService AddProdOrders   - Uretim emri olusturuldu----------------------------------------------------------------------------------------
+2017-10-16 11:02:17,843 [50] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-16 11:02:17,940 [50] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1340 Reçete Referansı: 593 Revizyon Referansı: 557 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188866 Mamül Birim Referansı 23
+2017-10-16 11:02:18,780 [50] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-16 11:02:18,781 [50] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00002Urun Adı: DOMATES ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-16 11:02:19,128 [50] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-16 11:02:37,711 [50] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-16 11:02:48,441 [50] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203916 Malzeme Referans: 1340 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990165
+ Sarf Fişi Referansı            	 : 990164
+2017-10-16 11:03:00,394 [50] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-16 11:03:06,155 [50] INFO   LogoService UpdateStatusCompleted   - Uretim emri durumu tamamlandi olarak güncellendi
+2017-10-16 11:03:06,374 [50] INFO   LogoService UpdateStatusColesed   - Uretim emri durumu kapandi olarak güncellendi 
+
+
+2017-10-16 11:03:09,236 [50] INFO   LogoService UpdateStatusColesed   - Uretim emri durumu kapandi olarak güncellendi 
+
+
+2017-10-16 11:03:41,843 [50] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------------------------------------
+2017-10-16 11:03:41,949 [50] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1423 Reçete Referansı: 615 Revizyon Referansı: 576 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188867 Mamül Birim Referansı 26
+2017-10-16 11:03:42,293 [50] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-16 11:03:42,294 [50] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00013Urun Adı: TAVUK SUYU ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-16 11:03:42,498 [50] INFO   LogoService UpdateStatus   - Uretim emri durumu devam ediyor olarak ayarlandi
+2017-10-16 11:04:02,068 [50] INFO   LogoService FastRealizeFicheGenerate   - Uretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-16 11:04:11,888 [50] INFO   LogoService FastRealizeFicheGenerate   - Uretim Emri Referans: 203917 Malzeme Referans: 1423 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990169
+ Sarf Fişi Referansı            	 : 990168
+2017-10-16 11:04:17,495 [50] INFO   LogoService FastRealizeFicheGenerate   - Gerçekleşen üretim fişinde olmayan satırlar 
+1)TDT12800246/TAVUK GÖĞÜS SOTE/601
+2)TDT124BHRT043/NANE/601
+
+2017-10-16 11:04:17,496 [50] INFO   LogoService FastRealizeFicheGenerate   - Üretim Emrine bağlı planlanan ve gerçekleşen satırı uyumsuzluğu yüzünden kayıtlar çıkartılıyor.
+2017-10-16 11:04:19,870 [50] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 12.10.2017 00:00:00 İrsaliye No: 00104591
+2017-10-16 11:04:19,871 [50] INFO   LogoService FastRealizeFicheGenerate   - Gerceklesen miktar girisi metodu tamamlandi
+2017-10-16 11:04:19,871 [50] INFO   LogoService AddProdOrders   - Uretim emri olusturuldu----------------------------------------------------------------------------------------
+[Header]
+2017-10-16 11:14:44,581 [13] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------**********************************------------------------------------------------
+2017-10-16 11:14:44,714 [13] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1423 Reçete Referansı: 615 Revizyon Referansı: 576 Üretilecek Miktar: 5   İrsaliye Tarihi: 12.10.2017 00:00:00 Üretim Fişi No URT00188868 Mamül Birim Referansı 26
+2017-10-16 11:14:45,182 [13] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-16 11:14:45,183 [13] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00104591 Urun Kodu: TDM00013Urun Adı: TAVUK SUYU ÇORBASISube Kodu: 601 Miktar: 5 için üretim emri oluşturuldu
+2017-10-16 11:14:45,275 [13] INFO   LogoService UpdateStatus   - URT00188868 'nolu üretim emri durumu devam ediyor olarak ayarlandi
+2017-10-16 11:14:47,551 [13] INFO   LogoService FastRealizeFicheGenerate   - URT00188868'nolu üretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-16 11:14:47,574 [13] INFO   LogoService FastRealizeFicheGenerate   - URT00188868 Uretim Emri Referans: 203920 Malzeme Referans: 1423 Uretim Miktarı: 5 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990181
+ Sarf Fişi Referansı            	 : 990180
+2017-10-16 11:15:15,671 [13] INFO   LogoService FastRealizeFicheGenerate   - URT00188868'nolu fişe ait gerçekleşen üretim fişinde olmayan satırlar 
+1)TDT124BHRT043/NANE/601
+2)TDT12800246/TAVUK GÖĞÜS SOTE/601
+
+2017-10-16 11:15:15,671 [13] INFO   LogoService FastRealizeFicheGenerate   - Üretim Emrine bağlı planlanan ve gerçekleşen satırı uyumsuzluğu yüzünden kayıtlar çıkartılıyor.
+[Header]
+2017-10-16 14:27:39,961 [9] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------**********************************------------------------------------------------
+2017-10-16 14:27:40,115 [9] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1340 Reçete Referansı: 744 Revizyon Referansı: 703 Üretilecek Miktar: 9   İrsaliye Tarihi: 02.10.2017 00:00:00 Üretim Fişi No URT00188919 Mamül Birim Referansı 23
+2017-10-16 14:27:41,902 [9] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-10-16 14:27:41,904 [9] INFO   LogoService AddProdOrders   - Üretim Emri Bilgileri: Irsaliye No: 00008109 Urun Kodu: TDM00002Urun Adı: DOMATES ÇORBASISube Kodu: 3401 Miktar: 9 için üretim emri oluşturuldu
+2017-10-16 14:27:42,502 [9] INFO   LogoService UpdateStatus   - URT00188919 'nolu üretim emri durumu devam ediyor olarak ayarlandi
+2017-10-16 14:27:44,522 [9] INFO   LogoService FastRealizeFicheGenerate   - URT00188919'nolu üretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-10-16 14:27:44,534 [9] INFO   LogoService FastRealizeFicheGenerate   - URT00188919 Uretim Emri Referans: 204002 Malzeme Referans: 1340 Uretim Miktarı: 9 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 990509
+ Sarf Fişi Referansı            	 : 990508
+[Header]
+2017-12-25 12:31:23,076 [72] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------**********************************------------------------------------------------
+2017-12-25 12:31:23,532 [72] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1341 Reçete Referansı: 2596 Revizyon Referansı: 2485 Üretilecek Miktar: 1   İrsaliye Tarihi: 25.12.2017 00:00:00 Üretim Fişi No URT00188988 Mamül Birim Referansı 26
+2017-12-25 12:31:30,569 [72] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-12-25 12:31:30,592 [72] INFO   LogoService AddProdOrders   - Irsaliye No: Gruplanmis UretimUrun Kodu: TDM00003Urun Adı: MERCİMEK ÇORBASISube Kodu: 7403 Miktar: 1 uretildi
+2017-12-25 12:31:31,454 [72] INFO   LogoService UpdateStatus   - URT00188988 'nolu üretim emri durumu devam ediyor olarak ayarlandi
+2017-12-25 12:31:33,970 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188988'nolu üretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-12-25 12:31:34,024 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188988 Uretim Emri Referans: 204120 Malzeme Referans: 1341 Uretim Miktarı: 1 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 991526
+ Sarf Fişi Referansı            	 : 991525
+2017-12-25 12:31:34,505 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188988'nolu fişe ait gerceklesen miktar girisi metodu tamamlandi
+2017-12-25 12:31:34,696 [72] INFO   LogoService UpdateStatusCompleted   - URT00188988'nolu üretim emri durumu tamamlandi olarak güncellendi
+2017-12-25 12:31:34,912 [72] INFO   LogoService UpdateStatusColesed   - URT00188988'nolu üretim emri durumu kapandi olarak güncellendi
+2017-12-25 12:31:34,928 [72] INFO   LogoService UpdateStatusColesed   - URT00188988'nolu üretim emri durumu kapandi olarak güncellendi
+2017-12-25 12:31:34,939 [72] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------**********************************------------------------------------------------
+2017-12-25 12:31:35,038 [72] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1353 Reçete Referansı: 2657 Revizyon Referansı: 2545 Üretilecek Miktar: 2   İrsaliye Tarihi: 25.12.2017 00:00:00 Üretim Fişi No URT00188989 Mamül Birim Referansı 23
+2017-12-25 12:31:37,805 [72] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-12-25 12:31:37,826 [72] INFO   LogoService AddProdOrders   - Irsaliye No: Gruplanmis UretimUrun Kodu: TDM00101Urun Adı: LABİATTESube Kodu: 7403 Miktar: 2 uretildi
+2017-12-25 12:31:37,924 [72] INFO   LogoService UpdateStatus   - URT00188989 'nolu üretim emri durumu devam ediyor olarak ayarlandi
+2017-12-25 12:31:40,638 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188989'nolu üretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-12-25 12:31:40,668 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188989 Uretim Emri Referans: 204121 Malzeme Referans: 1353 Uretim Miktarı: 2 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 991530
+ Sarf Fişi Referansı            	 : 991529
+2017-12-25 12:31:40,993 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188989'nolu fişe ait gerceklesen miktar girisi metodu tamamlandi
+2017-12-25 12:31:41,061 [72] INFO   LogoService UpdateStatusCompleted   - URT00188989'nolu üretim emri durumu tamamlandi olarak güncellendi
+2017-12-25 12:31:41,214 [72] INFO   LogoService UpdateStatusColesed   - URT00188989'nolu üretim emri durumu kapandi olarak güncellendi
+2017-12-25 12:31:41,230 [72] INFO   LogoService UpdateStatusColesed   - URT00188989'nolu üretim emri durumu kapandi olarak güncellendi
+2017-12-25 12:31:41,241 [72] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------**********************************------------------------------------------------
+2017-12-25 12:31:41,358 [72] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1354 Reçete Referansı: 2642 Revizyon Referansı: 2530 Üretilecek Miktar: 6   İrsaliye Tarihi: 25.12.2017 00:00:00 Üretim Fişi No URT00188990 Mamül Birim Referansı 23
+2017-12-25 12:31:42,865 [72] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-12-25 12:31:42,876 [72] INFO   LogoService AddProdOrders   - Irsaliye No: Gruplanmis UretimUrun Kodu: TDM00102Urun Adı: BARBEKÜSSube Kodu: 7403 Miktar: 6 uretildi
+2017-12-25 12:31:42,971 [72] INFO   LogoService UpdateStatus   - URT00188990 'nolu üretim emri durumu devam ediyor olarak ayarlandi
+2017-12-25 12:31:44,480 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188990'nolu üretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-12-25 12:31:44,501 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188990 Uretim Emri Referans: 204122 Malzeme Referans: 1354 Uretim Miktarı: 6 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 991534
+ Sarf Fişi Referansı            	 : 991533
+2017-12-25 12:31:44,829 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188990'nolu fişe ait gerceklesen miktar girisi metodu tamamlandi
+2017-12-25 12:31:44,893 [72] INFO   LogoService UpdateStatusCompleted   - URT00188990'nolu üretim emri durumu tamamlandi olarak güncellendi
+2017-12-25 12:31:45,036 [72] INFO   LogoService UpdateStatusColesed   - URT00188990'nolu üretim emri durumu kapandi olarak güncellendi
+2017-12-25 12:31:45,053 [72] INFO   LogoService UpdateStatusColesed   - URT00188990'nolu üretim emri durumu kapandi olarak güncellendi
+2017-12-25 12:31:45,063 [72] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------**********************************------------------------------------------------
+2017-12-25 12:31:45,188 [72] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1358 Reçete Referansı: 2662 Revizyon Referansı: 2550 Üretilecek Miktar: 7   İrsaliye Tarihi: 25.12.2017 00:00:00 Üretim Fişi No URT00188991 Mamül Birim Referansı 23
+2017-12-25 12:31:46,208 [72] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-12-25 12:31:46,222 [72] INFO   LogoService AddProdOrders   - Irsaliye No: Gruplanmis UretimUrun Kodu: TDM00106Urun Adı: ŞEFİN TAVASISube Kodu: 7403 Miktar: 7 uretildi
+2017-12-25 12:31:46,329 [72] INFO   LogoService UpdateStatus   - URT00188991 'nolu üretim emri durumu devam ediyor olarak ayarlandi
+2017-12-25 12:31:47,631 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188991'nolu üretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-12-25 12:31:47,650 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188991 Uretim Emri Referans: 204123 Malzeme Referans: 1358 Uretim Miktarı: 7 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 991538
+ Sarf Fişi Referansı            	 : 991537
+2017-12-25 12:31:52,882 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188991'nolu fişe ait gerçekleşen üretim fişinde olmayan satırlar 
+1)TDTŞBYÖM1 / BİBER COLİFORNİA KIRMIZI / 7403
+
+2017-12-25 12:31:52,919 [72] INFO   LogoService FastRealizeFicheGenerate   - Üretim Emrine bağlı planlanan ve gerçekleşen satırı uyumsuzluğu yüzünden kayıtlar çıkartılıyor.
+2017-12-25 12:36:01,753 [72] INFO   LogoService RollBackProdOrder   - Planlanan ve gerçekleşen üretim satırı uyumsuzluğu sebebiyle  İrsaliye Tarihi: 25.12.2017 00:00:00 İrsaliye No: 00008901
+2017-12-25 12:36:01,774 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188991'nolu fişe ait gerceklesen miktar girisi metodu tamamlandi
+2017-12-25 12:36:01,794 [72] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------**********************************------------------------------------------------
+2017-12-25 12:36:01,894 [72] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 1367 Reçete Referansı: 2565 Revizyon Referansı: 2454 Üretilecek Miktar: 2   İrsaliye Tarihi: 25.12.2017 00:00:00 Üretim Fişi No URT00188991 Mamül Birim Referansı 23
+2017-12-25 12:36:03,257 [72] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-12-25 12:36:03,274 [72] INFO   LogoService AddProdOrders   - Irsaliye No: Gruplanmis UretimUrun Kodu: TDM00115Urun Adı: KEKİKLİM PİRZOLASube Kodu: 7403 Miktar: 2 uretildi
+2017-12-25 12:36:03,378 [72] INFO   LogoService UpdateStatus   - URT00188991 'nolu üretim emri durumu devam ediyor olarak ayarlandi
+2017-12-25 12:36:05,137 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188991'nolu üretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-12-25 12:36:05,174 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188991 Uretim Emri Referans: 204124 Malzeme Referans: 1367 Uretim Miktarı: 2 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 991542
+ Sarf Fişi Referansı            	 : 991541
+2017-12-25 12:36:06,196 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188991'nolu fişe ait gerceklesen miktar girisi metodu tamamlandi
+2017-12-25 12:36:06,264 [72] INFO   LogoService UpdateStatusCompleted   - URT00188991'nolu üretim emri durumu tamamlandi olarak güncellendi
+2017-12-25 12:36:06,413 [72] INFO   LogoService UpdateStatusColesed   - URT00188991'nolu üretim emri durumu kapandi olarak güncellendi
+2017-12-25 12:36:06,428 [72] INFO   LogoService UpdateStatusColesed   - URT00188991'nolu üretim emri durumu kapandi olarak güncellendi
+2017-12-25 12:36:06,438 [72] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------**********************************------------------------------------------------
+2017-12-25 12:36:06,562 [72] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 2874 Reçete Referansı: 2691 Revizyon Referansı: 2579 Üretilecek Miktar: 1   İrsaliye Tarihi: 25.12.2017 00:00:00 Üretim Fişi No URT00188992 Mamül Birim Referansı 23
+2017-12-25 12:36:07,595 [72] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-12-25 12:36:07,632 [72] INFO   LogoService AddProdOrders   - Irsaliye No: Gruplanmis UretimUrun Kodu: TDM00122Urun Adı: KÖZLÜCESube Kodu: 7403 Miktar: 1 uretildi
+2017-12-25 12:36:07,770 [72] INFO   LogoService UpdateStatus   - URT00188992 'nolu üretim emri durumu devam ediyor olarak ayarlandi
+2017-12-25 12:36:08,995 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188992'nolu üretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-12-25 12:36:09,029 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188992 Uretim Emri Referans: 204125 Malzeme Referans: 2874 Uretim Miktarı: 1 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 991546
+ Sarf Fişi Referansı            	 : 991545
+2017-12-25 12:36:09,330 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188992'nolu fişe ait gerceklesen miktar girisi metodu tamamlandi
+2017-12-25 12:36:09,395 [72] INFO   LogoService UpdateStatusCompleted   - URT00188992'nolu üretim emri durumu tamamlandi olarak güncellendi
+2017-12-25 12:36:09,530 [72] INFO   LogoService UpdateStatusColesed   - URT00188992'nolu üretim emri durumu kapandi olarak güncellendi
+2017-12-25 12:36:09,546 [72] INFO   LogoService UpdateStatusColesed   - URT00188992'nolu üretim emri durumu kapandi olarak güncellendi
+2017-12-25 12:36:09,555 [72] INFO   LogoService AddProdOrders   - Uretim Emirleri Baslatıldı----------------------------------------**********************************------------------------------------------------
+2017-12-25 12:36:09,676 [72] INFO   LogoService AddProdOrders   - ÜretilenMalzeme Referansı: 2875 Reçete Referansı: 2692 Revizyon Referansı: 2580 Üretilecek Miktar: 1   İrsaliye Tarihi: 25.12.2017 00:00:00 Üretim Fişi No URT00188993 Mamül Birim Referansı 23
+2017-12-25 12:36:10,682 [72] INFO   LogoService AddProdOrders   - Üretim Emri Oluştruldu
+2017-12-25 12:36:10,705 [72] INFO   LogoService AddProdOrders   - Irsaliye No: Gruplanmis UretimUrun Kodu: TDM00123Urun Adı: ÇÖKERTMESube Kodu: 7403 Miktar: 1 uretildi
+2017-12-25 12:36:10,799 [72] INFO   LogoService UpdateStatus   - URT00188993 'nolu üretim emri durumu devam ediyor olarak ayarlandi
+2017-12-25 12:36:11,984 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188993'nolu üretim emrine bagli uretimden giris ve sarf fisleri olusturuldu
+2017-12-25 12:36:12,014 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188993 Uretim Emri Referans: 204126 Malzeme Referans: 2875 Uretim Miktarı: 1 Bagli Fis Referanslari: 
+ Üretimden Giriş Fişi Referansı 	 : 991550
+ Sarf Fişi Referansı            	 : 991549
+2017-12-25 12:36:12,335 [72] INFO   LogoService FastRealizeFicheGenerate   - URT00188993'nolu fişe ait gerceklesen miktar girisi metodu tamamlandi
+2017-12-25 12:36:12,400 [72] INFO   LogoService UpdateStatusCompleted   - URT00188993'nolu üretim emri durumu tamamlandi olarak güncellendi
+2017-12-25 12:36:12,545 [72] INFO   LogoService UpdateStatusColesed   - URT00188993'nolu üretim emri durumu kapandi olarak güncellendi
+2017-12-25 12:36:12,560 [72] INFO   LogoService UpdateStatusColesed   - URT00188993'nolu üretim emri durumu kapandi olarak güncellendi
+2017-12-25 12:36:12,570 [72] INFO   LogoService AddProdOrders   - Uretim emri olusturuldu----------------------------------------**********************************------------------------------------------------ 
+

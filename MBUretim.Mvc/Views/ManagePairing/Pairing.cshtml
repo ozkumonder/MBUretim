@@ -1,0 +1,142 @@
+﻿@using System.Collections
+@model MBUretim.Mvc.ViewInModel.PairingViewModel
+@{
+    ViewBag.Title = "ProductPairing";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    int counter = 0;
+}
+
+<div class="page-header page-header-default">
+    <div class="page-header-content">
+        <div class="page-title">
+            <h4>
+                <i class="icon-arrow-left52 position-left"></i> <span class="text-semibold">
+                    Ürün - Reçete Eşleştirme
+
+                </span>
+            </h4>
+            @*<div class="heading-elements">
+                    <div class="btn-group heading-btn">
+                        @using (Html.BeginForm("ExportData", "Home", FormMethod.Post, new { onsubmit = "validateForm()" }))
+                        {
+                            <button type="submit" class="btn bg-teal-400 btn-labeled legitRipple"><b><i class="icon-file-excel"></i></b>Excel'e Aktar</button>
+                        }
+                    </div>
+                </div>*@
+        </div>
+    </div>
+</div>
+<!-- /page header -->
+<div class="content">
+    <!-- Highlighting rows and columns -->
+    <div class="panel panel-flat">
+
+        <table class="table datatable-button-html5-columns" id="example">
+            <thead>
+                <tr>
+                    <th>Sıra</th>
+                    <th>Şube Kodu</th>
+                    <th>Şube Adı</th>
+                    <th>Malzeme Kodu</th>
+                    <th>Malzeme Açıklama</th>
+                    <th>Reçete Kodu</th>
+                    <th>Reçete Açıklama</th>
+                    <th>Action</th>
+
+                </tr>
+            </thead>
+            <tbody>
+
+
+                @if (Model != null)
+            {
+                foreach (var item in Model.MbProductpairings)
+                {
+                    counter++;
+                        <tr>
+                            <td width="20">@counter</td>
+                            <td>@item.DivisionCode</td>
+                            <td>@item.DivisionName</td>
+                            <td>@item.ItemCode</td>
+                            <td>@item.ItemName</td>
+                            <td style="width: 150px">@item.BomCode</td>
+                            <td>@item.BomName</td>
+                            <td class="text-center">
+                                <ul class="icons-list">
+                                    <li class="dropdown">
+                                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true">
+                                            <i class="icon-menu9"></i>
+                                        </a>
+                                        <ul class="dropdown-menu dropdown-menu-right">
+                                            <li><a class="btn btn-default btn-sm" href="@Url.Action("EditPairing","ManagePairing",new { id=@item.ProductPairingId})" data-toggle="modal" data-target="#modal_large"><i class="icon-pencil"></i>Düzenle</a></li>
+                                            <li><a class="btn btn-default btn-sm" href="@Url.Action("DeletePairing","ManagePairing",new { id=@item.ProductPairingId})" onclick="return confirm('Kaydı silmek istediğinize emin misiniz?')"><i class="icon-cross2"></i>Sil</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </td>
+
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+    <!-- /highlighting rows and columns -->
+</div>
+
+
+<!-- Vertical form modal -->
+<div id="modal_form_vertical" class="modal fade">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h5 class="modal-title">Ürün - Reçete Eşleştirme</h5>
+            </div>
+
+            @using (Html.BeginForm("AddPairing", "ManagePairing", FormMethod.Post, new { onsubmit = "validateForm()" }))
+            {
+                <div class="modal-body">
+                    <div class="form-group">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label>Ürün</label>
+                                @*@Html.TextBoxFor(model=>model.MbProductpairing.ITEM_CODE,new { placeholder = "Ürün Kodu", @class="form-control"})*@
+                                @Html.DropDownListFor(model => model.CapiDiv.CAPIDIV_LOGICALREF, new SelectList(ViewData["CapiDiv"] as IEnumerable, "CAPIDIV_LOGICALREF", "CAPIDIV_NAME"), new { @data_placeholder = "Ürün Kodu", @class = "select-size-lg", @id = "item", name = "itemCode" })
+                            </div>
+                            <div class="col-sm-6">
+                                <label>Ürün</label>
+                                @*@Html.TextBoxFor(model => model.MbProductpairing.BOM_CODE, new { placeholder = "Ürün Kodu", @class = "form-control" })*@
+                                @Html.DropDownListFor(model => model.Item.Id, new SelectList(ViewData["Items"] as IEnumerable, "Id", "Code"), new { @data_placeholder = "Ürün Kodu", @class = "select-size-lg", @id = "item", name = "itemCode" })
+                            </div>
+                            <div class="col-sm-6">
+                                <label>Reçete</label>
+                                @*@Html.TextBoxFor(model => model.MbProductpairing.BOM_CODE, new { placeholder = "Ürün Kodu", @class = "form-control" })*@
+                                @Html.DropDownListFor(model => model.BomMaster.Id, new SelectList(ViewData["BomMaster"] as IEnumerable, "Id", "Code"), new { @class = "select-size-lg", @id = "bomMaster", @name = "bomCode" })
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-link" data-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                </div>
+            }
+        </div>
+    </div>
+</div>
+<!-- Large modal -->
+<div id="modal_large" class="modal fade">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h5 class="modal-title">Ürün Reçete Güncelle</h5>
+            </div>
+            @Html.Partial("_EditPairing")
+
+        </div>
+    </div>
+</div>
+<!-- /large modal -->
